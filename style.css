@@ -664,7 +664,7 @@ header .icons #menu-bars{
     text-decoration: underline;
 }
 
-.footer .credit{
+.credit{
     text-align: center;
     border-top: .2rem solid rgba(0,0,0,.1);
     font-size: 1.8rem;
@@ -674,30 +674,9 @@ header .icons #menu-bars{
     margin-top: 1.5rem;
 }
 
-.footer .credit span{
+.credit span{
     color: var(--green);
 }
 /* footer section ends */
 
-/* loader section start */
-.loader-container{
-    position: fixed;
-    top: 0; left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10000;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
 
-.loader-container img{
-    width: 35rem;
-}
-.loader-container .fade-out{
-    top: 110%;
-    opacity: 0;
-}
-/* loader section ends */
